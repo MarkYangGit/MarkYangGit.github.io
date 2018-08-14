@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>MarkYangNote</title>
-  
+  <icon>https://www.gravatar.com/avatar/b800a145e1587a67af7f9a0f48bb4e7b</icon>
   <subtitle>public my Note, share them with you.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://MarkYangGit.github.io/"/>
   <updated>2018-08-12T08:19:03.110Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://MarkYangGit.github.io/</id>
   
   <author>
-    <name>MarkYangKp</name>
-    
+    <name>MarkYang</name>
+    <email>MarkYangKp@outlook.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Common 30 Chemistry elements</title>
-    <link href="http://yoursite.com/2018/08/12/chemistry/"/>
-    <id>http://yoursite.com/2018/08/12/chemistry/</id>
+    <link href="https://MarkYangGit.github.io/2018/08/12/chemistry/"/>
+    <id>https://MarkYangGit.github.io/2018/08/12/chemistry/</id>
     <published>2018-08-12T08:12:50.888Z</published>
     <updated>2018-08-12T08:19:03.110Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title>MainV</title>
-    <link href="http://yoursite.com/2018/08/12/mainV/"/>
-    <id>http://yoursite.com/2018/08/12/mainV/</id>
+    <link href="https://MarkYangGit.github.io/2018/08/12/mainV/"/>
+    <id>https://MarkYangGit.github.io/2018/08/12/mainV/</id>
     <published>2018-08-12T07:58:43.805Z</published>
     <updated>2018-08-12T08:01:46.294Z</updated>
     
@@ -60,8 +60,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/08/12/hello-world/"/>
-    <id>http://yoursite.com/2018/08/12/hello-world/</id>
+    <link href="https://MarkYangGit.github.io/2018/08/12/hello-world/"/>
+    <id>https://MarkYangGit.github.io/2018/08/12/hello-world/</id>
     <published>2018-08-12T05:56:34.077Z</published>
     <updated>2018-08-12T05:56:34.077Z</updated>
     

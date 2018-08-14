@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="MarkYangNot">
-    <meta name="keyword"  content="">
+    <meta name="description" content="MarkYang的博客">
+    <meta name="keyword"  content="腾讯">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
     <title>
         
-        Hello World - undefined
+        Hello World - MarkYang的博客 | MarkYang&#39;s Blog
         
     </title>
 
@@ -45,10 +45,10 @@
 <div class="nav" id="nav">
     <div class="avatar-name">
         <div class="avatar">
-            <img src="/" />
+            <img src="/img/avatar.jpg" />
         </div>
         <div class="name">
-            <i>MarkYangKp</i>
+            <i>MarkYang</i>
         </div>
     </div>
     <div class="contents" id="nav-content">
@@ -66,7 +66,7 @@
                 </a>
             </li>
             <li >
-                <a href="/archives">
+                <a href="/archive">
                     <i class="iconfont icon-guidang2"></i>
                     <span>存档</span>
                 </a>
@@ -75,6 +75,13 @@
                 <a href="/about/">
                     <i class="iconfont icon-guanyu2"></i>
                     <span>关于</span>
+                </a>
+            </li>
+            
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span>搜索</span>
                 </a>
             </li>
             
@@ -135,6 +142,16 @@
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
         
+            <div class="donate-container">
+    <div class="donate-button">
+        <button id="donate-button">赞赏</button>
+    </div>
+    <div class="donate-img-container hide" id="donate-img-container">
+        <img id="donate-img" src="" data-src="/Images/donate.jpg">
+        <p> 感谢鼓励 </p>
+    </div>
+</div>
+        
         <div id="comment-container">
         </div>
     </div>
@@ -147,11 +164,27 @@
     <ul class="list-inline text-center">
         
         
-
+        <li>
+            <a target="_blank" href="https://www.zhihu.com/people/yang-kun-peng-92">
+                            <span class="fa-stack fa-lg">
+                                 <i class="iconfont icon-zhihu"></i>
+                            </span>
+            </a>
+        </li>
         
 
         
 
+        
+
+        
+        <li>
+            <a target="_blank"  href="https://github.com/MarkYangGit">
+                            <span class="fa-stack fa-lg">
+                                <i class="iconfont icon-github"></i>
+                            </span>
+            </a>
+        </li>
         
 
         
@@ -175,12 +208,26 @@
 
 <script>
     // We expose some of the variables needed by the front end
-    window.hexo_search_path = ""
+    window.hexo_search_path = "search.json"
     window.hexo_root = "/"
     window.isPost = true
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/index.js"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script src="/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: 'Hello World',
+        owner: 'aircloud',
+        repo: 'hexo-aircloud-blog',
+        oauth: {
+            client_id: 'your-id-created-by-https://github.com/settings/applications/new',
+            client_secret: 'your-secret-created-by-https://github.com/settings/applications/new',
+        },
+    })
+    gitment.render('comment-container')
+</script>
 
 </html>
